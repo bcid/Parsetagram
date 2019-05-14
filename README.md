@@ -22,11 +22,15 @@ The following **bonus** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
+
 Home icon/launch screen/signing up:
+
 <img src='http://g.recordit.co/ROx2DlT0Ef.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 Logging in:
+
 <img src='http://g.recordit.co/g7xG9ZK07t.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 Taking photo, adding caption, posting to server:
+
 <img src='http://g.recordit.co/IOUq2HkFob.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
