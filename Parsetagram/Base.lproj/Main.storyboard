@@ -58,7 +58,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="onSignIn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="y9b-gF-Dlc"/>
+                                    <action selector="onSignIn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XxB-2J-VIC"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KsY-7b-pQr">
@@ -68,7 +68,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="onSignUp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yuw-t2-J6i"/>
+                                    <action selector="onSignUp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MB3-1L-imw"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -99,8 +99,8 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="passwordField" destination="Q3a-jJ-xw0" id="VD0-1r-6Eh"/>
-                        <outlet property="usernameField" destination="cNA-aC-weU" id="6tK-31-79S"/>
+                        <outlet property="passwordField" destination="Q3a-jJ-xw0" id="nej-5C-HOF"/>
+                        <outlet property="usernameField" destination="cNA-aC-weU" id="tEo-jr-mTo"/>
                         <segue destination="lxv-96-YKU" kind="presentation" identifier="loginSegue" id="Rch-tp-H5U"/>
                     </connections>
                 </viewController>
@@ -159,9 +159,9 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="captionLabel" destination="C7G-2B-OeT" id="pFY-t7-Hzt"/>
-                                            <outlet property="photoView" destination="fYF-Lx-1Pu" id="aMk-Of-cJV"/>
-                                            <outlet property="usernameLabel" destination="02O-4E-B4R" id="Ev1-nN-FeF"/>
+                                            <outlet property="captionLabel" destination="C7G-2B-OeT" id="x0d-Dk-AsU"/>
+                                            <outlet property="photoView" destination="fYF-Lx-1Pu" id="I9c-6c-qLb"/>
+                                            <outlet property="usernameLabel" destination="02O-4E-B4R" id="PUa-BX-rcP"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -184,7 +184,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="tableView" destination="JDW-oj-T48" id="KsQ-J2-fTl"/>
+                        <outlet property="tableView" destination="JDW-oj-T48" id="CA8-7O-YTZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="w61-wb-zvT" userLabel="First Responder" sceneMemberID="firstResponder"/>
