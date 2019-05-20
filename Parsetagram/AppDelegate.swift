@@ -24,6 +24,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 configuration.server = "https://pure-fortress-71570.herokuapp.com/parse"
             })
         )
+        window = UIWindow(frame: UIScreen.main.bounds)
+        let main = UIStoryboard(name: "Main", bundle: nil)
+        let feedNavController = main.instantiateViewController(withIdentifier: "FeedNavigationController")
+//        let loginNavController = storyboard.instantiateViewController(withIdentifier: "LoginNavigationController")
+        
+        if PFUser.current() != nil {
+            print("logged in ")
+            window?.rootViewController = feedNavController
+            window?.makeKeyAndVisible()
+        } else {
+//            print("not logged in")
+//            window?.rootViewController = loginNavController
+//            window?.makeKeyAndVisible()
+        }
         return true
     }
 
