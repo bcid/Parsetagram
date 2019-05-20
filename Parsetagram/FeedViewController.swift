@@ -158,10 +158,10 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let post = posts[indexPath.row]
+        let post = posts[indexPath.section]
         let comment = (post["comments"] as? [PFObject]) ?? []
         
-        if indexPath.row == comment.count-1{
+        if indexPath.row == comment.count+1{
             showsCommentBar = true
             becomeFirstResponder()
             commentBar.inputTextView.becomeFirstResponder()
